@@ -103,7 +103,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Chat with Documents")
-    st.header("Chat with Documents using Gemini")
+    st.header("Chat with your Documents")
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
