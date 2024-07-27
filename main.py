@@ -14,8 +14,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 load_dotenv()
-google_api_key = os.getenv("GOOGLE_API_KEY")
-print(f"GOOGLE_API_KEY: {google_api_key}")  # Debug print
+google_api_key = os.getenv("GOOGLE_API_KEY") 
 
 if not google_api_key:
     raise ValueError("GOOGLE_API_KEY environment variable not found")
